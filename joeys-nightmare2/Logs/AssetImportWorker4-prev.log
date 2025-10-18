@@ -1,0 +1,844 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f2c1 (92e6e6be66dc) revision 9627366'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32481 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.62f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/szpro/Desktop/SZ/game/joeys-nightmare-2/joeys-nightmare2
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+11969
+Successfully changed project path to: C:/Users/szpro/Desktop/SZ/game/joeys-nightmare-2/joeys-nightmare2
+C:/Users/szpro/Desktop/SZ/game/joeys-nightmare-2/joeys-nightmare2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18120]  Target information:
+
+Player connection [18120]  * "[IP] 192.168.3.14 [Port] 0 [Flags] 2 [Guid] 3137519051 [EditorId] 3137519051 [Version] 1048832 [Id] WindowsEditor(7,SZ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18120] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18120] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2c1 (92e6e6be66dc)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.62f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/szpro/Desktop/SZ/game/joeys-nightmare-2/joeys-nightmare2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.7296
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.62f2c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.62f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002020 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.160 seconds
+Domain Reload Profiling: 359ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (62ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (161ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.428 seconds
+Native extension for WindowsStandalone target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 844ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (243.2 KB). Loaded Objects now: 4773.
+Memory consumption went from 154.7 MB to 154.4 MB.
+Total: 3.134800 ms (FindLiveObjects: 0.361300 ms CreateObjectMapping: 0.063800 ms MarkObjects: 2.525300 ms  DeleteObjects: 0.181300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 847138.272812 seconds.
+  path: Assets/sts/bottomScene/scene2.jpg
+  artifactKey: Guid(a9ede745ce5fc0241be7f595478bd51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/bottomScene/scene2.jpg using Guid(a9ede745ce5fc0241be7f595478bd51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f41ded473979e5dcd63998a935bf0877') in 0.117174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sts/cityScene/scene4.png.import
+  artifactKey: Guid(2ae0feb1042c88d4eaed1a60c4128eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/cityScene/scene4.png.import using Guid(2ae0feb1042c88d4eaed1a60c4128eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '0a3209b448346688451618220af0c1da') in 0.004334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/sts/font/FeDPrm27C.otf
+  artifactKey: Guid(f14f7ff9ea13489409e7178ef3b843c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/font/FeDPrm27C.otf using Guid(f14f7ff9ea13489409e7178ef3b843c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b4ff3087b4c0f570b35f72839d8b73b5') in 0.010405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sts/font/NotoSans-Regular.ttf
+  artifactKey: Guid(da23198bd4b485648a1da4582ba4dd5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/font/NotoSans-Regular.ttf using Guid(da23198bd4b485648a1da4582ba4dd5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a145dc679cbc279089ca2e6cb292d959') in 0.004884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sts/cityScene/scene2.png
+  artifactKey: Guid(07fb600f5495dab459ef96e6a7da2594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/cityScene/scene2.png using Guid(07fb600f5495dab459ef96e6a7da2594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7c44c06440743658524ba1be7853a53f') in 0.011465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sts/cityScene/scene.png
+  artifactKey: Guid(fe1879cabd464b44590ee1868fb97818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/cityScene/scene.png using Guid(fe1879cabd464b44590ee1868fb97818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dca03583a5f6bb70e4572c38ff51e943') in 0.010041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sts/beyondScene/scene3.jpg.import
+  artifactKey: Guid(c8ee17dba8144424d881afae1c40b8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/beyondScene/scene3.jpg.import using Guid(c8ee17dba8144424d881afae1c40b8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a7f2461ac3c8f468a43b8d038bfe8b0e') in 0.002451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9797f11e966ebb2424d25e6dd16f444b') in 0.003126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sts/images/blank.png
+  artifactKey: Guid(38a55a438a2215648b3be3ca5f4ea0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/images/blank.png using Guid(38a55a438a2215648b3be3ca5f4ea0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '56e41feb9489d903bf23b2e63cde108b') in 0.007948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sts/endingScene/scene2.jpg.import
+  artifactKey: Guid(440a0f50e3e66b4468aef01e6a16a9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/endingScene/scene2.jpg.import using Guid(440a0f50e3e66b4468aef01e6a16a9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c6e65cc45c32b779c8c9101e29fe45ed') in 0.003702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sts/beyondScene/scene3.png
+  artifactKey: Guid(95032311663d1ee4bb7acdb411537f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/beyondScene/scene3.png using Guid(95032311663d1ee4bb7acdb411537f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7dd452bad55344be93cd7d1226909315') in 0.008847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.962800 seconds.
+  path: Assets/sts/powers/powers.png
+  artifactKey: Guid(6abfbfb075d191d49a59c3ea197084e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/powers/powers.png using Guid(6abfbfb075d191d49a59c3ea197084e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ff0c142dca531dc4c40fc8095d2bc8d5') in 0.011494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sts/audio/music/BossVictoryStinger_1_v3_MUSIC.ogg
+  artifactKey: Guid(1389a10892b261a408549fbd980bdaab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/BossVictoryStinger_1_v3_MUSIC.ogg using Guid(1389a10892b261a408549fbd980bdaab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '695766ba6764d9a25838d5fd7f9a2cd4') in 0.020926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sts/audio/music/BossVictoryStinger_2_v3_MUSIC.ogg.import
+  artifactKey: Guid(395d25d1f060d78459ec7bc2ea9d29ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/BossVictoryStinger_2_v3_MUSIC.ogg.import using Guid(395d25d1f060d78459ec7bc2ea9d29ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ae39ce45e78806200e85807700ba6136') in 0.003167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sts/audio/music/Shrine_v2.ogg
+  artifactKey: Guid(686554fdaf6414544844ec800c28dab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/Shrine_v2.ogg using Guid(686554fdaf6414544844ec800c28dab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f1892990e1ded58cf443813c5de6e958') in 0.019160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sts/audio/sound/bowling.ogg.import
+  artifactKey: Guid(dd3318f9f3637d944a9fd7abb2326512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/bowling.ogg.import using Guid(dd3318f9f3637d944a9fd7abb2326512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dba97b3d10b3be20f43b106041ac7020') in 0.002893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sts/audio/music/DeathStinger_4_v3_MUSIC.ogg
+  artifactKey: Guid(b38c1575726a13d4e92bdce81c8f35dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/DeathStinger_4_v3_MUSIC.ogg using Guid(b38c1575726a13d4e92bdce81c8f35dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'bb07f399ec3d94d31c5c62416343d31c') in 0.019542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sts/audio/music/Level1-2_v2.ogg
+  artifactKey: Guid(cce1f8b92b2a8f647b0ed622b095fc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/Level1-2_v2.ogg using Guid(cce1f8b92b2a8f647b0ed622b095fc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e3b8ac71f37e52e0de8544a08e9bf019') in 0.016698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sts/audio/music/Level1-2_v2.ogg.import
+  artifactKey: Guid(4256bb1e36417f84db8ee39c912e7141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/Level1-2_v2.ogg.import using Guid(4256bb1e36417f84db8ee39c912e7141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ad7beee507eac0ecba5990a5555a37a9') in 0.002087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sts/audio/music/Boss2_NewMix_v1.ogg
+  artifactKey: Guid(ed73e51de1663874d9a6e682c58ccf06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/music/Boss2_NewMix_v1.ogg using Guid(ed73e51de1663874d9a6e682c58ccf06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f83f9d5190dbded76185fcb568c832ec') in 0.020035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sts/title/title5.png
+  artifactKey: Guid(e6cf1eaaec4d29c499ac4adc26093cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/title/title5.png using Guid(e6cf1eaaec4d29c499ac4adc26093cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '8862e7720ae8b11bdd16a3caef11029b') in 0.008743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sts/title/title6.png
+  artifactKey: Guid(1c90790d169687d45b434588e0cff164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/title/title6.png using Guid(1c90790d169687d45b434588e0cff164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '30c3aced5b1149540db1f02a7488b80a') in 0.008192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.868086 seconds.
+  path: Assets/sts/audio/sound/SOTE_Logo_Echoing_ShortTail.ogg.import
+  artifactKey: Guid(88d0b994fc307244ca19245660478672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_Logo_Echoing_ShortTail.ogg.import using Guid(88d0b994fc307244ca19245660478672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f6db657902e9dc154a4dd08d93978a73') in 0.003380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_DefenseBreak_v2.ogg.import
+  artifactKey: Guid(86c832b7e6fad304a9c431e5735324cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_DefenseBreak_v2.ogg.import using Guid(86c832b7e6fad304a9c431e5735324cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dd73fa54f937af776e524d13b8ab9972') in 0.002251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_FireIgnite_1_v1.ogg.import
+  artifactKey: Guid(ea02a682680cb914299d2fe92f4adf9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_FireIgnite_1_v1.ogg.import using Guid(ea02a682680cb914299d2fe92f4adf9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd67a536b1df1e855c2cf1fc18a973fca') in 0.003410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_CeilingDust1_Boom_v1.ogg
+  artifactKey: Guid(1980710d7efa82a4a8f13fbb4dc49c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_CeilingDust1_Boom_v1.ogg using Guid(1980710d7efa82a4a8f13fbb4dc49c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c3a644d8557397c4b8b560b03b8726c0') in 0.020476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_HeavyBlunt_v2.ogg.import
+  artifactKey: Guid(5475f69aadd715d489060d2f05f876a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_HeavyBlunt_v2.ogg.import using Guid(5475f69aadd715d489060d2f05f876a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ffcc09dc9c6eb1192dc1361bb2414628') in 0.002429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_MagicFast_3_v1.ogg.import
+  artifactKey: Guid(4a0861fe50cb923428e700822529c84d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_MagicFast_3_v1.ogg.import using Guid(4a0861fe50cb923428e700822529c84d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '708aa12b63fc22da724aceae7a04aad0') in 0.003577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_DropRelic_Magical.ogg.import
+  artifactKey: Guid(6a36ded8de6bb0f4f85c868824275dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_DropRelic_Magical.ogg.import using Guid(6a36ded8de6bb0f4f85c868824275dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a43c4e978e979de213f60b5cfe9e0cde') in 0.003209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_EnemyTurn_v3.ogg
+  artifactKey: Guid(3e78d885dbc0542408d78d28ce034121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_EnemyTurn_v3.ogg using Guid(3e78d885dbc0542408d78d28ce034121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd6042a6836cba89f29e243b2bd0141bb') in 0.020189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_DropRelic_Rocky.ogg
+  artifactKey: Guid(21936563d46a0da419efb751abc86bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_DropRelic_Rocky.ogg using Guid(21936563d46a0da419efb751abc86bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '57ff4810fa28df43590d760a36d92e14') in 0.020821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_BossBallTransform_v1.ogg
+  artifactKey: Guid(70d23bf4bff12eb4f8f94fa3b978c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_BossBallTransform_v1.ogg using Guid(70d23bf4bff12eb4f8f94fa3b978c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7bb3976dc13c43e9f9bb1bd04d1bbaf1') in 0.019958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_DropPotion_1_v1.ogg
+  artifactKey: Guid(41a7d751960fc8b4caf3e17b97186b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_DropPotion_1_v1.ogg using Guid(41a7d751960fc8b4caf3e17b97186b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'eaa75d182a1382ad7b68988625528268') in 0.020078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_BossGhostFireAtk_2_v1.ogg.import
+  artifactKey: Guid(b60d5a641f281ef4ea063b789881d6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_BossGhostFireAtk_2_v1.ogg.import using Guid(b60d5a641f281ef4ea063b789881d6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2502b9d1fd6b48e8f3f678b3e37b3f93') in 0.002812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_FastBlunt_v2.ogg.import
+  artifactKey: Guid(a7e5124e361f1f941abd3da20bc5f279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_FastBlunt_v2.ogg.import using Guid(a7e5124e361f1f941abd3da20bc5f279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9acfec48ba0fd828c3f7f9ce1563084b') in 0.002659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_FastAtk_v2.ogg.import
+  artifactKey: Guid(eb6fc967bc3a28445a2f19c0fdb0007b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_FastAtk_v2.ogg.import using Guid(eb6fc967bc3a28445a2f19c0fdb0007b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7f72bc2c640f5c626a1fa88de51da67b') in 0.002300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_Debuff_3_v1.ogg
+  artifactKey: Guid(183cc85684c84044a84359c2f74de203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_Debuff_3_v1.ogg using Guid(183cc85684c84044a84359c2f74de203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dbc424d1290620473617d767a5af3281') in 0.018635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_ExhaustCard.ogg
+  artifactKey: Guid(11faa30b2fb2ec74498eb4f714ed886a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_ExhaustCard.ogg using Guid(11faa30b2fb2ec74498eb4f714ed886a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd4cad4553d5924bd72653cb04a4ec035') in 0.018300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_HealShort_3_v2.ogg
+  artifactKey: Guid(af652b1ffcc8f864db1631eb52fe0a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_HealShort_3_v2.ogg using Guid(af652b1ffcc8f864db1631eb52fe0a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e790dfbdcee458e01a8198ef32473400') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_CeilingDust1_v1.ogg
+  artifactKey: Guid(cadc8c936cefbd54985f68bc4d2f623f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_CeilingDust1_v1.ogg using Guid(cadc8c936cefbd54985f68bc4d2f623f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f9e99f8072de204a7f1798b49a7f315f') in 0.019546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_Buff_1_v1.ogg.import
+  artifactKey: Guid(5af459cb636390b4d8fc9e9ad5a4b85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_Buff_1_v1.ogg.import using Guid(5af459cb636390b4d8fc9e9ad5a4b85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '69a9698b25542b0057c4c0bddfa7aa38') in 0.003599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_HeavyBlunt_v2.ogg
+  artifactKey: Guid(8771cd2d9e0a26d459836986c6e95a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_HeavyBlunt_v2.ogg using Guid(8771cd2d9e0a26d459836986c6e95a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3f112f0854acbad27d24cf58a62e0e59') in 0.023023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_FireIgnite_1_v1.ogg
+  artifactKey: Guid(3e82e58cead6b964888d91536309cf1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_FireIgnite_1_v1.ogg using Guid(3e82e58cead6b964888d91536309cf1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f0f5bbe34fb3b848275c47c1c7c48882') in 0.024638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.746928 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_MapSelect_1_v1.ogg
+  artifactKey: Guid(738d4165c33e15c44b38b77552bf89f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_MapSelect_1_v1.ogg using Guid(738d4165c33e15c44b38b77552bf89f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '89863e9a4d58c95c261d14455a8535e6') in 0.020052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_PlayerTurn_v3.ogg
+  artifactKey: Guid(386977f289f464a47a01ef6978afc3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_PlayerTurn_v3.ogg using Guid(386977f289f464a47a01ef6978afc3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '31cbd9a5974df40198befc6a10122ade') in 0.017868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_ViewDeck_v2.ogg.import
+  artifactKey: Guid(c9089140c864928448a53e5a57a2ad11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_ViewDeck_v2.ogg.import using Guid(c9089140c864928448a53e5a57a2ad11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f109d9bf053ad1d415d6739cf1ba4609') in 0.003474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sts/audio/sound/STS_SFX_AwakenedOne3Atk_v1.ogg
+  artifactKey: Guid(51fb83c8b06f0ee49a7c09ed3877fc53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/STS_SFX_AwakenedOne3Atk_v1.ogg using Guid(51fb83c8b06f0ee49a7c09ed3877fc53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '11bbf12f6acb092f69a2be7b85d18908') in 0.017614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_RelicActivation_v1.ogg.import
+  artifactKey: Guid(24565d5239e7e40408aec249e7067af2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_RelicActivation_v1.ogg.import using Guid(24565d5239e7e40408aec249e7067af2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b4027108cd7db57405ecf27e7fba8294') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_UpgradeCard_v1.ogg
+  artifactKey: Guid(5eb1d503472b3a54b97eb89f0b65b50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_UpgradeCard_v1.ogg using Guid(5eb1d503472b3a54b97eb89f0b65b50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'acdf58ebd33d4cf25cf4619703a02ce9') in 0.017828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_UIClick_2_v2.wav.import
+  artifactKey: Guid(f6e6bd9e500e3a14b8f5b5c5a66102a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_UIClick_2_v2.wav.import using Guid(f6e6bd9e500e3a14b8f5b5c5a66102a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c3d9c18281974091ee72771c432fd279') in 0.003272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_ShopRugClose_v1.ogg
+  artifactKey: Guid(f430eb374eff10142aa0e2f82700cd93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_ShopRugClose_v1.ogg using Guid(f430eb374eff10142aa0e2f82700cd93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '07a695034b1ef14e54bbda2972434da4') in 0.020095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_Potion_2_v2.ogg.import
+  artifactKey: Guid(4543e3f45fe7b964282359ad58cd8843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_Potion_2_v2.ogg.import using Guid(4543e3f45fe7b964282359ad58cd8843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6a1f8039226ccea0a2595ee26814c75c') in 0.002610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_SlowMagic_1_v1.ogg
+  artifactKey: Guid(f48299897319fdc4ea320881ea3f7b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_SlowMagic_1_v1.ogg using Guid(f48299897319fdc4ea320881ea3f7b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '966da61c837525af335d36943e8dfb07') in 0.019543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_NecroLaugh_v2.ogg.import
+  artifactKey: Guid(b48497d0802cf4e42b7d687ce92efb11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_NecroLaugh_v2.ogg.import using Guid(b48497d0802cf4e42b7d687ce92efb11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9fc1d87a17cb3b506972e56b8079df6f') in 0.002290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_SlowThrow_2_v1.ogg.import
+  artifactKey: Guid(c2f22179dcb4a5e44a0f3261775880c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_SlowThrow_2_v1.ogg.import using Guid(c2f22179dcb4a5e44a0f3261775880c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'db60e37bb21d425249b900176e0e1780') in 0.002914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_RelicActivation_v1.ogg
+  artifactKey: Guid(cd0210039b87f844397fc8f75f0dbfff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_RelicActivation_v1.ogg using Guid(cd0210039b87f844397fc8f75f0dbfff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd83e1a19927dee44a508037a7a0adbfb') in 0.016350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sts/audio/sound/STS_NewUnlock_v1.ogg
+  artifactKey: Guid(b571e0e033bf36a4aacc1fb44e930f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/STS_NewUnlock_v1.ogg using Guid(b571e0e033bf36a4aacc1fb44e930f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd872af298ab9e60f24a9ddb99acc66bf') in 0.017599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_UpgradeCard_v1.ogg.import
+  artifactKey: Guid(ca22d30dc6daf94408c22f8433c9b287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_UpgradeCard_v1.ogg.import using Guid(ca22d30dc6daf94408c22f8433c9b287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '62419d9d04c6d5c23be3c43e6b5109ba') in 0.002256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_Relic_Berimbau.ogg.import
+  artifactKey: Guid(8befddcd0270b0143ba0347cb52d96e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_Relic_Berimbau.ogg.import using Guid(8befddcd0270b0143ba0347cb52d96e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '52f136783f5ec99e685cc4b38aa0c5d2') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_ShopRugClose_v1.ogg.import
+  artifactKey: Guid(1941b9b23ee7c3e47aae8ff53988c62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_ShopRugClose_v1.ogg.import using Guid(1941b9b23ee7c3e47aae8ff53988c62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3d553a3e5e7d1c85bef1d9872aea15c6') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_SlimeBlink_3_v1.ogg.import
+  artifactKey: Guid(b4669bd07397c914286f04b5dafd5d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_SlimeBlink_3_v1.ogg.import using Guid(b4669bd07397c914286f04b5dafd5d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b49d7b803306d2a5ebfb13c93bd1d07e') in 0.002483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_WaterDrips_30sec_v2.ogg
+  artifactKey: Guid(fd4eb077f1844de49a3bde8bbcc2227b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_WaterDrips_30sec_v2.ogg using Guid(fd4eb077f1844de49a3bde8bbcc2227b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '531f3c9f2c67664cfdfed6c73b39cfda') in 0.022240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sts/audio/sound/STS_SFX_BeatingColumns_Demo_1.ogg.import
+  artifactKey: Guid(deb4a04dfd1df85488c81b15ffa444c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/STS_SFX_BeatingColumns_Demo_1.ogg.import using Guid(deb4a04dfd1df85488c81b15ffa444c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9cc799f5e2272ded1ac165092f610cab') in 0.003171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_NecroLaugh_v2.ogg
+  artifactKey: Guid(84c5c3e1bb4566843b2d4fac36c3d33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_NecroLaugh_v2.ogg using Guid(84c5c3e1bb4566843b2d4fac36c3d33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '59da5372e7b0e552728eafb72ea02f07') in 0.018091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sts/audio/sound/SOTE_SFX_SleepBlanket_v1.ogg
+  artifactKey: Guid(0c611ccd7a9ace14f8bca9612c2814e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sts/audio/sound/SOTE_SFX_SleepBlanket_v1.ogg using Guid(0c611ccd7a9ace14f8bca9612c2814e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5b67c213f2b8cb1f4b2c575b8831b23b') in 0.016806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.547 seconds
+Native extension for WindowsStandalone target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 917ms
+	BeginReloadAssembly (352ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (246ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (215.3 KB). Loaded Objects now: 4779.
+Memory consumption went from 153.1 MB to 152.9 MB.
+Total: 2.389500 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.996200 ms  DeleteObjects: 0.140200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
