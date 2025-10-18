@@ -11,3 +11,42 @@ export_presets.cfg
 .DS_Store
 *.import
 *.uid
+# ================ #
+# Unity 自动生成 #
+# ================ #
+*/Library/*
+*/Temp/*
+*/Obj/*
+*/Build/*
+*/Builds/*
+*/Logs/*
+*/UserSettings/*
+*/MemoryCaptures/*
+
+# ======================== #
+# 构建结果与导出包 #
+# ======================== #
+*.apk
+*.a
+*.unitypackage
+
+# ============================= #
+# IDE 与编辑器临时文件 #
+# ============================= #
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# ======================== #
+# 系统与应用程序特定文件 #
+# ======================== #
+sysinfo.txt
+*.pidb
+*.mdb
+.DS_Store
+Temp/
+*.tmp
