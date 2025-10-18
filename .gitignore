@@ -14,14 +14,14 @@ export_presets.cfg
 # ================ #
 # Unity 自动生成 #
 # ================ #
-/[Ll]ibrary/
-/[Tt]emp/
+/Library/
+/Temp/
 /[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
 
 # ======================== #
 # 构建结果与导出包 #
